@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OUR STORY"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:id="@+id/aboutus_head1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/aboutus_head1"
+            android:id="@+id/aboutus_para1"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aboutus_img1"
+            android:layout_below="@+id/aboutus_para1"
+            android:id="@+id/aboutus_img1"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

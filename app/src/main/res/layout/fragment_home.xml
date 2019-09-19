@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_fragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="428dp"
+            android:background="@drawable/background"
+            android:minHeight="180dp"
+            android:id="@+id/landing">
+
+            <TextView
+                android:id="@+id/head1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="VECHILES SERVICES ON SPOT"
+                android:textColor="#FFFFFF"
+                android:textFontWeight="400"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/head2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/head1"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:padding="20sp"
+                android:text="WE ARE HERE TO HELP \nYOU"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/btn_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/head2"
+                android:paddingHorizontal="60sp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FF0D6D"
+                    android:padding="10sp"
+                    android:text="OUR SERVICES"
+                    android:layout_marginHorizontal="10sp"
+                    android:clickable="true"
+                    android:id="@+id/btn1"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_border"
+                    android:text="CONTACT NOW"
+                    android:layout_marginHorizontal="10sp"
+                    android:padding="10sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:id="@+id/btn2"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/landing"
+            android:layout_marginHorizontal="30sp"
+            android:layout_marginTop="-20sp"
+            android:paddingVertical="30sp"
+            android:background="#FF0D6D"
+            android:minHeight="40sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="We understand your problems"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:id="@+id/landing2_Text"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REQUEST QUOTE"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="#000"
+                android:layout_marginVertical="20sp"
+                android:padding="10sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/landing2_Text"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

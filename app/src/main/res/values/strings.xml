@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">V-DOC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">V-DOC</string>
+    <string name="nav_header_subtitle">info@vdoc.in</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_services">Services</string>
+    <string name="menu_aboutus">About US</string>
+    <string name="menu_contactus">Contact Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="aboutus_para1">
+        <![CDATA[
+        <html>
+         <head></head>
+         <body>
+             <p style="text-align:justify;">
+                    In last one decade, the world has come up with many creative ideas to use the internet for good. Rising craze of the online world and smartphones among the current generation has led us to a life changing decision of bringing vehicle owners and mechanics closer than ever – using the technology.
+                    Via <b>V-DOC</b>, we have made a successful attempt to revolutionise the automobile repairing process in the country. We encountered the challenges, figured out a solution, gave it a hard try, and succeeded in building a platform that will, for sure, help people make their lives much easier.
+             </p>
+         </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="services_para1">
+        <![CDATA[
+        <html>
+         <head></head>
+         <body>
+             <p style="text-align:justify;">
+Your vehicle is no less than your extended family member. It needs a proper care-taking. <b>V-DOC</b> comes to your rescue when you are most troubled. We help you get a professional mechanic to have your vehicle repaired within minutes.
+Professional mechanics are now on your fingertips, no matter which part of the country you are roaming in. Since the internet age is all about comfort, why not improving the experience of hiring a mechanic from your locality? In our opinion, it’s not worth to go from shop to shop in a hunt of a skilled repairman, especially when your vehicle is broken down in an area you are not much familiar with. How about just take your phone out and hire a mechanic in just a few taps, irrespective of time and place – that too, without getting out of your car?
+             </p>
+         </body>
+        </html>
+        ]]>
+    </string>
+
+</resources>
